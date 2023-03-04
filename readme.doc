@@ -1,0 +1,8 @@
+A fast forward merge occurs when there is a linear path from the current branch to target branch.
+The branches do not actually have to be merged, they just have to be integrated with one another so that they are up to date. 
+
+A conflict will occur between two branches if the same line of code is changed. For example, if two different branches
+are changing the title of the doc at the same time and they are committed, a conflict will occur and need to be resolved.
+A conflict will not occur if a collaborator adds a p tag to the same file and writes something, and another collaborator 
+adds a div tag for another purpose. These changes may be happening simultaneously, but to different areas of the file that will
+not cause any conflicts. 
